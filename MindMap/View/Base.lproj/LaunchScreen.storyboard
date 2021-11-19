@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <device id="ipad7_9" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1133" height="744"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mindMapImage" translatesAutoresizingMaskIntoConstraints="NO" id="0qO-Y4-4So">
-                                <rect key="frame" x="289" y="256" width="788" height="512"/>
+                                <rect key="frame" x="283.5" y="188" width="566.5" height="368"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0qO-Y4-4So" secondAttribute="height" multiplier="77:50" id="V9p-AH-6lC"/>
                                 </constraints>
@@ -27,8 +27,8 @@
                         <color key="backgroundColor" red="0.13725490200000001" green="0.1176470588" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0qO-Y4-4So" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8ro-34-Nzf"/>
-                            <constraint firstItem="0qO-Y4-4So" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.5" id="O0z-Cb-Fgf"/>
                             <constraint firstItem="0qO-Y4-4So" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qdw-5T-G5E"/>
+                            <constraint firstItem="0qO-Y4-4So" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="zbg-v5-2dM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mindMapImage" width="756.9603271484375" height="473.36007690429688"/>
+        <image name="mindMapImage" width="757" height="474"/>
     </resources>
 </document>
