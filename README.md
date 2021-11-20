@@ -1,7 +1,7 @@
 # MindMap
 An iOS application for creating Mind Maps with clean/intuitive UI and MVC architecture.
 
-## What's New ?
+## About the project
 - Check recently edited mind maps
 - Privacy (Lock mind maps)
 - Share with your friends
